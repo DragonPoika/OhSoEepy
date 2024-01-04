@@ -1,9 +1,13 @@
-# OhSoEepy
-
+<div align="center">
+    <h1>OhSoEepy</h1>
+    <img src="https://github.com/DragonPoika/OhSoEepy/assets/79696015/55a9b74c-65f8-4167-a093-d088e0cb364a">
+</div>
 <b>
 OhSoEepy is a Minecraft datapack library with multiple sleeping related features.
 </b><br>
-It's MIT-licensed, so you can use it in your projects. Below is a guide on all the features!
+It's MIT-licensed, so you can use it in your projects.
+
+### Below is a guide on all the features!
 
 ***
 
@@ -33,3 +37,7 @@ Note: this doesn't check if there is a bed nearby.<br>
 
 List of functions that get run when the player wakes up.<br>
 Located at `ohsoeepy/tags/functions/player_woke_up.json`
+
+
+### Support
+https://discord.gg/hg7hgHPfWF
