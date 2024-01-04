@@ -1,0 +1,42 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "flags": {
+            "is_on_fire": false
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "poison": {}
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {}
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{foodLevel:0}"
+          }
+        }
+      }
+    ]
+  }
+  

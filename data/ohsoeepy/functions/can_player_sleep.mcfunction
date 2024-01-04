@@ -1,0 +1,1 @@
+execute unless entity @e[type=#ohsoeepy:monster,dx=8,dz=8,dy=5] if predicate ohsoeepy:can_player_sleep run return 1

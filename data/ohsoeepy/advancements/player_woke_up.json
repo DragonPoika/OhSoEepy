@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "nbt": "{SleepTimer:101}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "ohsoeepy:player_woke_up"
+    }
+  }
+  
