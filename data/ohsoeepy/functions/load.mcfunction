@@ -1,0 +1,3 @@
+scoreboard objectives add ohsoeepy.day_length dummy
+scoreboard objectives add ohsoeepy.time_player_last_slept dummy
+scoreboard objectives add ohsoeepy.time_entered_bed dummy
